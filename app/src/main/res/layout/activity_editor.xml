@@ -84,16 +84,16 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Measurement category -->
+    <!-- Championships category -->
     <LinearLayout
-        android:id="@+id/container_measurement"
+        android:id="@+id/container_championships"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <!-- Label -->
         <TextView
-            android:text="@string/category_measurement"
+            android:text="@string/category_championships"
             style="@style/CategoryStyle" />
 
         <!-- Input fields -->

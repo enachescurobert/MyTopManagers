@@ -80,8 +80,8 @@
     <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
     <string name="category_gender">Gender</string>
 
-    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
-    <string name="category_measurement">Measurement</string>
+    <!-- Label for championships information in the editor [CHAR LIMIT=30] -->
+    <string name="category_championships">Championships</string>
 
     <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
     <string name="hint_manager_name">Name</string>
