@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers;
+package com.enachescurobert.android.managers;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
 
-import com.example.android.managers.data.ManagerContract.ManagerEntry;
+import com.enachescurobert.android.managers.data.ManagerContract.ManagerEntry;
 
 /**
  * {@link ManagerCursorAdapter} is an adapter for a list or grid view
@@ -60,7 +60,7 @@ public class ManagerCursorAdapter extends CursorAdapter {
 
     /**
      * This method binds the manager data (in the current row pointed to by cursor) to the given
-     * list item layout. For example, the name for the current manager can be set on the name TextView
+     * list item layout. For enachescurobert, the name for the current manager can be set on the name TextView
      * in the list item layout.
      *
      * @param view    Existing view, returned earlier by newView() method

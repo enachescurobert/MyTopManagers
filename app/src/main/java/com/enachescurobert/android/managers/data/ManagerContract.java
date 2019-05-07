@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers.data;
+package com.enachescurobert.android.managers.data;
 
 import android.net.Uri;
 import android.content.ContentResolver;
@@ -34,7 +34,7 @@ public final class ManagerContract {
      * content authority is the package name for the app, which is guaranteed to be unique on the
      * device.
      */
-    public static final String CONTENT_AUTHORITY = "com.example.android.managers";
+    public static final String CONTENT_AUTHORITY = "com.enachescurobert.android.managers";
 
     /**
      * Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
@@ -44,8 +44,8 @@ public final class ManagerContract {
 
     /**
      * Possible path (appended to base content URI for possible URI's)
-     * For instance, content://com.example.android.managers/managers/ is a valid path for
-     * looking at manager data. content://com.example.android.managers/staff/ will fail,
+     * For instance, content://com.enachescurobert.android.managers/managers/ is a valid path for
+     * looking at manager data. content://com.enachescurobert.android.managers/staff/ will fail,
      * as the ContentProvider hasn't been given any information on what to do with "staff".
      */
     public static final String PATH_MANAGERS = "managers";

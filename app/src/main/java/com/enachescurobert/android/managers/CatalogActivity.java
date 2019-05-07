@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers;
+package com.enachescurobert.android.managers;
 
 import android.app.LoaderManager;
 import android.content.ContentUris;
@@ -33,7 +33,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.example.android.managers.data.ManagerContract.ManagerEntry;
+import com.enachescurobert.android.managers.data.ManagerContract.ManagerEntry;
 
 /**
  * Displays list of managers that were entered and stored in the app.
@@ -84,7 +84,7 @@ public class CatalogActivity extends AppCompatActivity implements
                 // Form the content URI that represents the specific manager that was clicked on,
                 // by appending the "id" (passed as input to this method) onto the
                 // {@link ManagerEntry#CONTENT_URI}.
-                // For example, the URI would be "content://com.example.android.managers/managers/2"
+                // For enachescurobert, the URI would be "content://com.enachescurobert.android.managers/managers/2"
                 // if the manager with ID 2 was clicked on.
                 Uri currentManagerUri = ContentUris.withAppendedId(ManagerEntry.CONTENT_URI, id);
 

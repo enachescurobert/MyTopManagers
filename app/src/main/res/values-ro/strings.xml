@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Managerii Mei De Top</string>
+    <string name="action_delete">Sterge</string>
+    <string name="action_delete_all_entries">Sterge toti managerii</string>
+    <string name="action_insert_dummy_data">Insereaza Dummy Data</string>
+    <string name="action_save">Salveaza</string>
+    <string name="cancel">Anuleaza</string>
+    <string name="category_championships">Campionate</string>
+    <string name="category_gender">Sex</string>
+    <string name="category_overview">Detalii</string>
+    <string name="delete">Sterge</string>
+    <string name="delete_dialog_msg">Sterge acest manager?</string>
+    <string name="discard">Anuleaza</string>
+    <string name="editor_activity_title_edit_manager">Editeaza manager</string>
+    <string name="editor_activity_title_new_manager">Adauga manager</string>
+    <string name="editor_delete_manager_failed">Eroare la stergerea managerului</string>
+    <string name="editor_delete_manager_successful">Manager sters</string>
+    <string name="editor_insert_manager_failed">Eroare la salvarea managerului</string>
+    <string name="editor_insert_manager_successful">Manager salvat</string>
+    <string name="editor_update_manager_failed">Eroare la modificarea managerului</string>
+    <string name="editor_update_manager_successful">Manager modificat</string>
+    <string name="empty_view_subtitle_text">Incepe adaugand un manager</string>
+    <string name="empty_view_title_text">Este cam liniste aici ..</string>
+    <string name="gender_female">Femeie</string>
+    <string name="gender_male">Barbat</string>
+    <string name="gender_unknown">Naiba stie</string>
+    <string name="hint_manager_name">Nume</string>
+    <string name="hint_manager_team">Echipa</string>
+    <string name="hint_manager_trophies">Trofee</string>
+    <string name="keep_editing">Continua sa editezi</string>
+    <string name="unit_manager_trophies">castigate</string>
+    <string name="unknown_team">Echipa necunoscuta</string>
+    <string name="unsaved_changes_dialog_msg">Anulezi modificarile si opresti editarea?</string>
+</resources>

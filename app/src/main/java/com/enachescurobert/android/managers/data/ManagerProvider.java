@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers.data;
+package com.enachescurobert.android.managers.data;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -27,9 +27,9 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.android.managers.CatalogActivity;
-import com.example.android.managers.EditorActivity;
-import com.example.android.managers.data.ManagerContract.ManagerEntry;
+import com.enachescurobert.android.managers.CatalogActivity;
+import com.enachescurobert.android.managers.EditorActivity;
+import com.enachescurobert.android.managers.data.ManagerContract.ManagerEntry;
 
 /**
  * {@link ContentProvider} for Managers app.
@@ -58,18 +58,18 @@ public class ManagerProvider extends ContentProvider {
         // should recognize. All paths added to the UriMatcher have a corresponding code to return
         // when a match is found.
 
-        // The content URI of the form "content://com.example.android.managers/managers" will map to the
+        // The content URI of the form "content://com.enachescurobert.android.managers/managers" will map to the
         // integer code {@link #MANAGERS}. This URI is used to provide access to MULTIPLE rows
         // of the managers table.
         sUriMatcher.addURI(ManagerContract.CONTENT_AUTHORITY, ManagerContract.PATH_MANAGERS, MANAGERS);
 
-        // The content URI of the form "content://com.example.android.managers/managers/#" will map to the
+        // The content URI of the form "content://com.enachescurobert.android.managers/managers/#" will map to the
         // integer code {@link #MANAGER_ID}. This URI is used to provide access to ONE single row
         // of the managers table.
         //
         // In this case, the "#" wildcard is used where "#" can be substituted for an integer.
-        // For example, "content://com.example.android.managers/managers/3" matches, but
-        // "content://com.example.android.managers/managers" (without a number at the end) doesn't match.
+        // For enachescurobert, "content://com.enachescurobert.android.managers/managers/3" matches, but
+        // "content://com.enachescurobert.android.managers/managers" (without a number at the end) doesn't match.
         sUriMatcher.addURI(ManagerContract.CONTENT_AUTHORITY, ManagerContract.PATH_MANAGERS + "/#", MANAGER_ID);
     }
 
@@ -103,7 +103,7 @@ public class ManagerProvider extends ContentProvider {
                 break;
             case MANAGER_ID:
                 // For the MANAGER_ID code, extract out the ID from the URI.
-                // For an example URI such as "content://com.example.android.managers/managers/3",
+                // For an enachescurobert URI such as "content://com.enachescurobert.android.managers/managers/3",
                 // the selection will be "_id=?" and the selection argument will be a
                 // String array containing the actual ID of 3 in this case.
                 //

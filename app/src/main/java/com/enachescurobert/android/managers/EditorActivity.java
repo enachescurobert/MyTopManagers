@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers;
+package com.enachescurobert.android.managers;
 
 import android.app.AlertDialog;
 import android.app.LoaderManager;
@@ -38,7 +38,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.android.managers.data.ManagerContract.ManagerEntry;
+import com.enachescurobert.android.managers.data.ManagerContract.ManagerEntry;
 
 import static android.widget.Toast.LENGTH_LONG;
 

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.managers.data;
+package com.enachescurobert.android.managers.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.android.managers.data.ManagerContract.ManagerEntry;
+import com.enachescurobert.android.managers.data.ManagerContract.ManagerEntry;
 
 /**
  * Database helper for Managers app. Manages database creation and version management.
